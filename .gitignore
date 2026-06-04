@@ -1,0 +1,13 @@
+# Security: Ignore local environment credentials
+.env
+
+# Storage: Ignore the local FAISS vector database folder
+faiss_upwork_index/
+
+# Python caching artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit operational configurations
+.streamlit/
